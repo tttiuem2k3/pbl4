@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    
+
+</head>
+<body>
+
+
+
+    <div _ngcontent-obf-c2="" class="login-main">
+        <div _ngcontent-obf-c2="" class="login-logo"><img _ngcontent-obf-c2="" alt="" lazyimg=""
+                width="100" src="img/iconMtb.PNG">
+        </div>
+
+        <div _ngcontent-obf-c2="" class="login-wellcome"> Kính chào Quý khách 
+
+        </div>
+        <input
+            _ngcontent-obf-c2="" class="hidden" id="login-alert-1" type="checkbox">
+
+        <div _ngcontent-obf-c2="" class="login-alert">
+            <div _ngcontent-obf-c2="" class="login-alert-inner">
+                <p _ngcontent-obf-c2="">- Với khách hàng đã có tài khoản <span class="inline-block">MTB</span>:
+                    <b><span class="inline-block">Tên đăng nhập</span> là Số điện thoại đăng ký dịch vụ</b> <br>- Với khách
+                    hàng chưa có tài khoản <span class="inline-block">MTB</span>: <b>Vui lòng chuyển sang đăng ký</b></p>
+            </div>
+        </div>
+        <div _ngcontent-obf-c2="" class="login-form">
+            <form _ngcontent-obf-c2="" novalidate="" class="">
+                <div _ngcontent-obf-c2="" class="list-pb20">
+                    <div _ngcontent-obf-c2="" class="form-group">
+                        <div _ngcontent-obf-c2="" class="input-group"><input _ngcontent-obf-c2=""
+                                appnoneunikey="" aria-label="Username" autocomplete="off" autocorrect="off"
+                                class="input1"
+                                formcontrolname="username" id="username" maxlength="100" name="username" placeholder=""
+                                type="text">
+                            <div _ngcontent-obf-c2="" class="input-line-bar"></div><label _ngcontent-obf-c2=""
+                                class="input-label"> Tên đăng nhập </label>
+                        </div>
+                    </div>
+                    <div _ngcontent-obf-c2="" class="form-group">
+                        <div _ngcontent-obf-c2="" class="input-group-flex input-group-material input-group-slot-line">
+                            <div _ngcontent-obf-c2="" app-password=""
+                                class="input-group ng-untouched ng-pristine ng-invalid" formcontrolname="password"
+                                id="login" maxlength="20"><input aria-label="Password" autocapitalize="none"
+                                    autocomplete="off" autocorrect="off" required="" type="text"
+                                    class="input input-xs input-material" id="app_password_login" maxlength="20"
+                                    placeholder=""><!----><label class="input-label">Mật khẩu</label><!----></div>
+                            <div _ngcontent-obf-c2="" class="input-group-slot no-border">
+                                <div _ngcontent-obf-c2="" class="input-group-slot-inner no-mr"><label _ngcontent-obf-c2=""
+                                        class="ubtn ubg-secondary login-eye" data-tooltip="tooltip" title=""><input
+                                            _ngcontent-obf-c2="" aria-label="Password" checked=""
+                                            class="hidden ng-untouched ng-pristine ng-valid" formcontrolname="hidePass"
+                                            name="hidepass" type="checkbox">
+                                        <div _ngcontent-obf-c2="" class="login-eye-slash"></div>
+                                    </label></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div _ngcontent-obf-c2="" class="form-group">
+                        <div _ngcontent-obf-c2="" class="input-group-flex input-group-material input-group-slot-line">
+                            <div _ngcontent-obf-c2="" class="input-group"><input _ngcontent-obf-c2="" appnumberonly=""
+                                    aria-label="Captcha" autocorrect="off"
+                                    class="input input-xs input-material ng-untouched ng-pristine ng-valid"
+                                    formcontrolname="captcha" maxlength="5" placeholder="" type="text">
+                                <div _ngcontent-obf-c2="" class="input-line-bar"></div><label _ngcontent-obf-c2=""
+                                    class="input-label">Mã kiểm tra</label>
+                            </div>
+                            <div _ngcontent-obf-c2="" class="input-group-slot no-border captcha">
+                                <div _ngcontent-obf-c2="" class="input-group-slot-inner"><img _ngcontent-obf-c2="" alt=""
+                                        width="100"
+                                        src="https://digiapp.vietcombank.com.vn/utility-service/v1/captcha/e1eb9def-5c91-9466-dd8b-dbf5e71e9cf0">
+                                </div>
+                            </div>
+                            <div _ngcontent-obf-c2="" class="input-group-slot no-border">
+                                <div _ngcontent-obf-c2="" class="input-group-slot-inner no-mr"><a _ngcontent-obf-c2=""
+                                        class="ubtn ubg-secondary ubtn-sm ripple no-m" href="javascript:void(0)"><img
+                                            _ngcontent-obf-c2="" alt="" lazyimg="" width="24"
+                                            src="./assets/images/web/icons/dark/ic_reload.svg"></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div _ngcontent-obf-c2="" class="form-group">
+                        <div _ngcontent-obf-c2="" class="ubtn-wrap-width-full mb15"><button _ngcontent-obf-c2=""
+                                class="no-m ubtn ubg-primary ubtn-md ripple" id="btnLogin" type="submit"><span
+                                    _ngcontent-obf-c2="" class="ubtn-text">Đăng nhập</span></button></div>
+                        <div _ngcontent-obf-c2="" class="text-center"><a _ngcontent-obf-c2="" class="link hover-line"
+                                routerlink="/resetpassword" href="/resetpassword">Quên mật khẩu?</a><a _ngcontent-obf-c2=""
+                                class="d-flex justify-content-center mt10 align-items-center" target="_blank"
+                                href="https://digibankm5.vietcombank.com.vn/get_file/ibomni/html/chuyen-doi-ib.pdf"><span
+                                    _ngcontent-obf-c2="" class="link"> Hướng dẫn chuyển đổi sang VCB Digibank </span></a><a
+                                _ngcontent-obf-c2="" class="d-flex justify-content-center mt10"
+                                data-target="#vcb-booking-menu" data-toggle="modal" href="javascript:void()"><span
+                                    _ngcontent-obf-c2="" class="link ml20 mr5">Đặt lịch hẹn với Vietcombank</span>
+                                <div _ngcontent-obf-c2="" class="new-ic">New</div>
+                            </a></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
